@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="download (4).png">
+    <script src="jquery-3.6.0.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body.image-container {
+            background-image: url('black-frame-with-copy-space-top-view.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 90vh; 
+        }
+
+        #logo {
+            /* margin-top: 17px; */
+            margin-left: 100px;
+            color:aqua;
+            font-size: 25px;
+            margin-top: 10px;
+            font-family:georgia,garamond,serif;
+        }
+    </style>
+</head>
+
+<body class="image-container">
+    <h3 id="logo">PORTFOLIO</h3>
+    <div>
+        <ul id="lo" >
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="contact.html" data-text="&nbsp;&nbsp;Contact">&nbsp;&nbsp;&nbsp;Contact&nbsp;</a> </li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"> <a class="link" href="project.html" data-text="&nbsp;&nbsp;Project">&nbsp&nbsp&nbsp;Project&nbsp;</a></li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"> <a class="link" href="about.html" data-text="&nbsp;&nbsp;About">&nbsp&nbsp&nbsp;About&nbsp;</a> </li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="port_folio.html" data-text="Home">&nbsp;Home&nbsp;</a></li>
+            <style type="text/css">
+                a.link{
+                    text-decoration: none;
+                }
+                #lo {
+                    text-align: center;
+                    margin-right: 140px;
+                }
+                .flo {
+                    float: right;
+                    margin-top: -20px;
+                } 
+
+                ul {
+                    text-align: center;
+                    list-style-type: none;
+                    font-family:georgia,garamond,serif;
+                }
+
+                ul li a {
+                    position: relative;
+                    font-size: 15px;
+                    color:  rgb(250, 249, 249) ;
+                    /* line-height: 1em; */
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    /* -webkit-text-stroke: 0px rgba(250, 249, 249, 0.5); */
+                }
+
+                ul li a::before {
+                    content: attr(data-text);
+                    position: absolute;
+                    /* color: var(--clr); */
+                    width: 0;
+                    overflow: hidden;
+                    /* transition: 1s; */
+                    -webkit-text-stroke: 1px var(--clr);
+                }
+
+                ul li a:hover::before {
+                    width: 100%;
+                    position: absolute;
+                    /* filter:(var(--clr)); */
+                }
+            </style>
+        </ul>
+    </div>
+    <div class="float-container">
+    
+        <div class="float-child">
+            <img id="img" alt="arpit" height="550px" width="350px" src="WhatsApp Image 2023-06-05 at 5.41.59 PM.jpeg">
+        </div>
+    
+        <div class="float-child">
+            <div class="about">
+                <h2 id="hlw">Hello, I am </h2>
+                <h1 id="name">Arpit Kumar Gautam</h1>
+                <h4 id="soft">I'm a <spam id="work">Software Engineer</spam>
+                </h4>
+                <p id="bio">dedicated to creating elegant and efficient solutions that make a positive <br>&nbsp; impact.
+                    I thrive on tackling complex challenges and transforming ideas <br>
+                    into innovative software solutions that drive progress
+                    and empower businesses.
+                </p>
+                <style type="text/css">
+                    .about {
+                        text-align: center;
+                    }
+                
+                    #name {
+                        margin-top: 10px;
+                        color: white;
+                        font-family:georgia,garamond,serif;
+                        margin-right:70px;
+                    }
+                
+                    #hlw {
+                        margin-top: 120px;
+                        color: white;
+                        font-family:georgia,garamond,serif;
+                        margin-right:70px;
+                    }
+                
+                    #soft {
+                        margin-top: 10px;
+                        color: rgb(237, 241, 243);
+                        font-family:georgia,garamond,serif;
+                        margin-right:70px;
+                    }
+                
+                    #work {
+                        color: aqua;
+                        margin-right:70px;
+                    }
+                
+                    #bio {
+                        margin-top: 15px;
+                        color: white;
+                        font-family:georgia,garamond,serif;
+                        direction: ltr;
+                        margin-right:70px;
+                    }
+            
+                </style>
+            </div>
+        </div>
+        <style type="text/css">
+            .float-container {
+                /* border: 3px solid white; */
+                padding: 20px;
+            }
+            
+            .float-child {
+                width: 50%;
+                float: left;
+                /* padding: 20px; */
+                /* border: 2px solid red; */
+            }
+            img{
+                width: 50%;
+                height: auto;
+            }
+            #img{
+                /* height:550px; */
+                margin-left: 230px;
+                /* border-radius: 50%; */
+                overflow: hidden; /* clip the content inside the circle! */
+                background-size: cover;
+            }
+        </style>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

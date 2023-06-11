@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="jquery-3.6.0.min.js"> </script>
+    <link rel="icon" href="download (4).png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body.image-contain {
+            background-image: url('top-view-agenda-glasses-pencil.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        #con {
+            /* margin-top: 17px; */
+            text-align: center;
+            padding-top: 100px;
+            color: aqua;
+            font-size: 25px;
+            font-family: georgia, garamond, serif;
+        }
+    </style>
+</head>
+
+<body class="image-contain">
+    <div>
+        <ul id="lo">
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="contact.html"
+                    data-text="&nbsp;&nbsp;Contact">&nbsp;&nbsp;&nbsp;Contact&nbsp;</a> </li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"> <a class="link" href="project.html"
+                    data-text="&nbsp;&nbsp;Project">&nbsp&nbsp&nbsp;Project&nbsp;</a></li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"> <a class="link" href="about.html"
+                    data-text="&nbsp;&nbsp;About">&nbsp&nbsp&nbsp;About&nbsp;</a> </li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="port_folio.html"
+                    data-text="Home">&nbsp;Home&nbsp;</a></li>
+            <style type="text/css">
+                a.link {
+                    text-decoration: none;
+                }
+    
+                #lo {
+                    text-align: center;
+                    margin-right: 140px;
+                }
+    
+                .flo {
+                    float: right;
+                    gap: 100px;
+                }
+    
+                ul {
+                    text-align: center;
+                    list-style-type: none;
+                    font-family: georgia, garamond, serif;
+                }
+    
+                ul li a {
+                    position: relative;
+                    font-size: 15px;
+                    color: rgb(250, 249, 249);
+                    /* line-height: 1em; */
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    -webkit-text-stroke: 0px rgba(250, 249, 249, 0.5);
+                }
+    
+                ul li a::before {
+                    content: attr(data-text);
+                    position: absolute;
+                    /* color: var(--clr); */
+                    width: 0;
+                    overflow: hidden;
+                    /* transition: 1s; */
+                    -webkit-text-stroke: 1px var(--clr);
+                }
+    
+                ul li a:hover::before {
+                    width: 100%;
+                    position: absolute;
+                    filter: (var(--clr));
+                }
+            </style>
+        </ul>
+    </div>
+    <div class="image-container">
+        <div class="container">
+            <h2 id="con">Connect To Me</h2>
+            <div class="connect">
+                <div id="call">
+                    <h4>Call me</h4>
+                    <p>9179630621</p>
+                    <h4>My Email Id</h4>
+                    <p><a id="mail" alt="Email" href="gautamarpit1204@gmail.com" target="_blank"> gautamarpit1204@gmail.com</a></p>
+                    
+                </div>
+            </div>
+            <div class="connect">
+                <div id="social">
+                    <h4>Social Media</h4>
+                    <div>
+                        <a rel="noopener" href="https://www.linkedin.com/in/arpit-kumar-00989322a/" target="_blank"><img id="ldn" alt="ldn" src="download.png"></a>
+                        <a rel="noopener" href="https://github.com/ARinger22" target="_blank"><img id="git" alt="git" src="download (1).png"> </a>
+                    </div>
+                    <div id="sec">
+                        <a rel="noopener" href="https://www.instagram.com/arpit.g_0224/" target="_blank"><img id="ldn" alt="ldn" width="130px" src="download.jpeg"></a>
+                        <a rel="noopener" href="https://github.com/ARinger22" target="_blank"><img id="git" alt="git" src="download (1).png" > </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <style type="text/css">
+                .connect {
+                    color: white;
+                    float: left;
+                    width: 50%;
+                    font-family: georgia, garamond, serif;
+                }
+                #call{
+                    text-align: center;
+                }
+                #mail{
+                    text-decoration: none;
+                }
+                #social{
+                    text-align: center;
+                }
+                #ldn{height:50px;}
+                #git{margin-left: 20px; height:50px;}
+                #sec{padding-top: 20px;}
+            </style>
+            
+            <h2 id="more">You can also visit</h2>
+            <a rel="noopener" href="https://leetcode.com/A_Ringer/" target="_blank"><img id="leet" alt="leet" 
+                src="download (2).png"></a>
+            <a rel="noopener" href="https://leetcode.com/A_Ringer/" target="_blank"><img id="gfg" alt="leet" 
+                src="360_F_199392092_KRuDCnK1EUIrlf7ltB9zfL5FgIlrOpcZ.jpg"></a>
+            <a rel="noopener" href="https://leetcode.com/A_Ringer/" target="_blank"><img id="cod" alt="leet"
+                    src="download (3).png"></a>
+
+            <style type="text/css">
+                #more{
+                    padding-top: 200px;
+                    text-align: center;
+                    color: white;
+                    font-family: georgia, garamond, serif;
+                }
+                #leet{margin-left: 220px; height:50px; width: 180px;}
+                #gfg{margin-left: 20px; height:50px; width: 180px;}
+                #cod{margin-left: 20px; height:50px; width: 180px;}
+            </style>
+        </div>
+    </div>
+    <!-- <nav id="gal">
+            <h2><b>Gallery</b></h2>
+        </nav>
+        <div id="gallery">
+            <div id="bg"></div>
+            <div id="fg"></div>
+            <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+            <script src="app.js"></script>
+        </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

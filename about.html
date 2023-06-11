@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="jquery-3.6.0.min.js"> </script>
+    <link rel="icon" href="download (4).png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body.image-contain {
+            background-image: url('top-view-agenda-glasses-pencil.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        #about {
+            /* margin-top: 17px; */
+            color: aqua;
+            font-size: 25px;
+            font-family: georgia, garamond, serif;
+        }
+
+    </style>
+</head>
+
+<body class="image-contain">
+    <div>
+        <ul id="lo">
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="contact.html"
+                    data-text="&nbsp;&nbsp;Contact">&nbsp;&nbsp;&nbsp;Contact&nbsp;</a> </li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"> <a class="link" href="project.html"
+                    data-text="&nbsp;&nbsp;Project">&nbsp&nbsp&nbsp;Project&nbsp;</a></li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"> <a class="link" href="about.html"
+                    data-text="&nbsp;&nbsp;About">&nbsp&nbsp&nbsp;About&nbsp;</a> </li>
+            <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="port_folio.html"
+                    data-text="Home">&nbsp;Home&nbsp;</a></li>
+            <style type="text/css">
+                a.link {
+                    text-decoration: none;
+                }
+    
+                #lo {
+                    text-align: center;
+                    margin-right: 140px;
+                }
+    
+                .flo {
+                    float: right;
+                    gap: 100px;
+                }
+    
+                ul {
+                    text-align: center;
+                    list-style-type: none;
+                    font-family: georgia, garamond, serif;
+                }
+    
+                ul li a {
+                    position: relative;
+                    font-size: 15px;
+                    color: rgb(250, 249, 249);
+                    /* line-height: 1em; */
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    -webkit-text-stroke: 0px rgba(250, 249, 249, 0.5);
+                }
+    
+                ul li a::before {
+                    content: attr(data-text);
+                    position: absolute;
+                    /* color: var(--clr); */
+                    width: 0;
+                    overflow: hidden;
+                    /* transition: 1s; */
+                    -webkit-text-stroke: 1px var(--clr);
+                }
+    
+                ul li a:hover::before {
+                    width: 100%;
+                    position: absolute;
+                    filter: (var(--clr));
+                }
+            </style>
+        </ul>
+    </div>
+    <div class="image-container">
+        <div id="bio">
+            <h1 id="about">About Me</h1>
+            <h3 id="name">Hlw, I'm Arpit Kumar Gautam</h3>
+            <p id="abt">
+                I am a Computer Science student in the Indian Institute of Technology, Ropar, Punjab, INDIA.<br>
+                I completed two years of study in Computer Science. During my time at, <br> I gained a
+                solid foundation in the principles and concepts of computer science.<br>
+                I also actively engaged in collaborative projects and team-based assignments,<br> which allowed me to enhance my
+                communication and teamwork abilities.<br> These experiences fostered a passion for working in a dynamic and fast-paced
+                environment.<br>Completing two years of study in Computer Science has laid a strong foundation for my future endeavors in the field.<br> I
+                am eager to apply the knowledge and skills I have acquired to tackle real-world challenges <br>and contribute to innovative
+                projects.<br>
+                Thank you for visiting my portfolio. I invite you to explore my work and get in touch to discuss<br> how we can collaborate
+                on [specific types of projects or opportunities].
+            </p>
+            <style type="text/css">
+                #abt{
+                    color:white;
+                }
+                #bio{
+                    /* margin-top: 150px; */
+                    padding-top: 150px;
+                    text-align: center;
+                    font-family: georgia, garamond, serif;
+                }
+                #name{
+                    color: white;
+                }
+            </style>
+        </div>
+    </div>
+   
+  
+
+    <!-- <nav id="gal">
+            <h2><b>Gallery</b></h2>
+        </nav>
+        <div id="gallery">
+            <div id="bg"></div>
+            <div id="fg"></div>
+            <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+            <script src="app.js"></script>
+        </div> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
