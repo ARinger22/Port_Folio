@@ -24,26 +24,29 @@
             background-image: url('top-view-agenda-glasses-pencil.jpg');
             background-size: cover;
             background-position: center;
-            height: 100vh;
         }
         #pro{
             text-align: center;
-            color: rgb(28, 28, 28);
+            color: rgb(11, 11, 11);
             /* margin-top: 30px; */
             font-family:georgia,garamond,serif;
         }
         #pro2{
             text-align: center;
-            color: rgb(28, 28, 28);
+            color: rgb(11, 11, 11);
             /* margin-top: 30px; */
-            font-family:georgia,garamond,serif;
+            font-family:georgia,garamond,serif; 
+        }
+        .main-container{
+            max-width:100%;
+            margin-right: 20px;
         }
     </style>
 </head>
 
 <body class="image-container">
 
-    <div>
+    <div class="container3">
         <ul id="lo">
             <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="contact.html"
                     data-text="&nbsp;&nbsp;Contact">&nbsp;&nbsp;&nbsp;Contact&nbsp;</a> </li>
@@ -54,6 +57,9 @@
             <li class="flo" style="--clr:rgba(250, 249, 249, 0.5)"><a class="link" href="index.html"
                     data-text="Home">&nbsp;Home&nbsp;</a></li>
             <style type="text/css">
+                .container3 {
+                    height:50px;
+                }
                 a.link {
                     text-decoration: none;
                 }
@@ -102,108 +108,127 @@
             </style>
         </ul>
     </div>
-    <div class="container2">
-        <h2 id="pro">My Skills</h2>
-        <div class="slide-active2">
-            <p> <b>Languages :</b> C++, C, Python, HTML, CSS, JavaScript </p>
-        </div>
-        <div class="slide-active2">
-            <p> <b>Frameworks and Libraries: </b> Machine Learning, PyQt5, NumPy, Selenium, Pandas, React-Native </p>
-        </div>
-        <div class="slide-active2">
-            <p> <b>Developer Tools: </b> VS Code, GitHub, Jupyter Notebook, Google Colab </p>
-        </div>
-        
-        <style type="text/css">
-            .container2 {
-                /* position: absolute; */
-                margin-top:20px;
-                border: 2px solid #100f0f;
-                width: 1360px;
-                height: 200px;
-                margin-left: 100px;
-                float: left;
-                background-color: rgb(176, 173, 173);
-            }
-    
-            .slide-active2 {
-                margin: 20px;
-                height:15px;
-                font-family: georgia, garamond, serif;
-                margin-top:5px;
-            }
-    
-        </style>
-    </div>
-    <div class="container">
-        <h2 id="pro2">My Projects</h2>
-        <div class="slide-active">
-            <img alt="1st" src="Screenshot (319).png" height="100px" width="150"> 
-            <a href="https://aringer22.github.io/First_website/" target="_blank" rel="noopener"><figcaption id="fig1"> First Automotive Club Website </figcaption></a>
-        </div>
-        <div class="slide-active">
-            <img alt="gui" src="Screenshot_20230605_075716.png" height="100px" width="150">
-            <a href="https://github.com/ARinger22/CS204__RISCV_Simulator.git" target="_blank" rel="noopener"><p id="fig2" >GUI for RISC-V Simulator</p></a>
-        </div>
-        <div class="slide-active">
-            <video width="150" height="100px" controls="controls" />
-                <source src="WhatsApp Video 2023-06-05 at 8.59.44 PM.mp4" type="video/mp4">
-            </video>
-            <a href="https://github.com/ARinger22/Dice_Roller3D.git" target="_blank" rel="noopener"> <p id="fig3">Dice Roller App</p> </a>
-        </div>
-        <div class="slide-active"><img alt="1st" src="Screenshot_20230611_021630.png" height="100px" width="150"> 
-            <a id="mlpro" href="https://aringer22.github.io/Math_Garden_ML/" target="_blank" rel="noopener"> <figcaption  id="fig">First ML Project</figcaption></a>
-        </div>
 
-        <div class="slide-active">
-            <img alt="" src="Screenshot_20230605_075716.png" height="100px" width="150">
-            <figcaption  id="fig" class="left-align">Store App</figcaption>
-        </div>
-        <div class="slide-active">
-            <div class="button"><i class="fas fa-angle-left"></i> </div>
-            <div class="button"><i class="fas fa-angle-right"></i> </div>
+    <div class="main-container">
+        <div class="container2">
+            <h2 id="pro">My Skills</h2>
+            <div class="slide-active2">
+                    <p> <b>Languages :</b> C++, C, Python, HTML, CSS, JavaScript </p>
+                </div>
+                <div class="slide-active2">
+                    <p> <b>Frameworks and Libraries: </b> Machine Learning, PyQt5, NumPy, Selenium, Pandas, React-Native </p>
+                </div>
+                <div class="slide-active2">
+                    <p> <b>Developer Tools: </b> VS Code, GitHub, Jupyter Notebook, Google Colab </p>
+                </div>
             
-        </div>
-        <style type="text/css">
-            .container{
-                /* position: absolute; */
-                margin-top:20px;
-                border: 3px solid #100f0f; 
-                max-width:1360px;
-                height: 400px;
-                padding-top: 0px;
-                margin-left: 100px;
-                float: left;
-            }
-            .slide-active{
-                /* text-align: center; */
-                float: left;
-                margin:20px;
-                font-family:georgia,garamond,serif;
-                border: 2px solid rgb(21, 5, 5);
-                width:400px;
-                /* margin-left: 30px; */
-            }
-            #fig1{
-                float:right;
-                color: white;
-                font-family:georgia,garamond,serif;
-                margin-right: 20px;
-            }
-            #fig2{
-                float:right;
-                color: white;
-                font-family:georgia,garamond,serif;
-                margin-right: 40px;
-            }
-            #fig3{
-                float:right;
-                color: white;
-                font-family:georgia,garamond,serif;
-                margin-right: 80px;
-            }
+                <style type="text/css">
+                    .container2 {
+                        /* position: absolute; */
+                        padding-top: 10px;
+                        padding-bottom: 0.1px;
+                        max-width: 88.5%;
+                        /* border: 2px solid #100f0f; */
+                        max-height: 400px;
+                        margin-left: 100px;
+                        /* float: left; */
+                        background-color: rgb(176, 173, 173);
+                        /* background-position: center; */
+                    }
+        
+                    .slide-active2 {
+                        text-align:center;
+                        font-family: georgia, garamond, serif;
+                        color: rgb(16, 15, 15);
+                        /* border: 1px solid rgb(21, 5, 5); */
+                    }
+            
+                </style>
+            </div>
+    
+        <div class="container">
+            <h2 id="pro2">My Projects</h2>
+            <div class="slide-active">
+                <img alt="1st" src="Screenshot (319).png" height="100px" width="150"> 
+                <a href="https://aringer22.github.io/First_website/" target="_blank" rel="noopener"><p id="fig1"> Automotive Club Website </p></a>
+            </div>
+            <div class="slide-active">
+                <img alt="gui" src="Screenshot_20230605_075716.png" height="100px" width="150">
+                <a href="https://github.com/ARinger22/CS204__RISCV_Simulator.git" target="_blank" rel="noopener"><p id="fig2" >GUI for RISC-V Simulator</p></a>
+            </div>
+            <div class="slide-active">
+                <video width="150" height="100px" controls="controls" />
+                    <source src="WhatsApp Video 2023-06-05 at 8.59.44 PM.mp4" type="video/mp4">
+                </video>
+                <a href="https://github.com/ARinger22/Dice_Roller3D.git" target="_blank" rel="noopener"> <p id="fig3">Dice Roller App</p> </a>
+            </div>
+            <div class="slide-active"><img alt="1st" src="Screenshot_20230611_021630.png" height="100px" width="150"> 
+                <a id="mlpro" href="https://aringer22.github.io/Math_Garden_ML/" target="_blank" rel="noopener"> <p  id="fig4">Predict HandWritten Digit</p></a>
+            </div>
 
-        </style>
+            <div class="slide-active">
+                <img alt="" src="Screenshot_20230605_075716.png" height="100px" width="150">
+                <a> <p  id="fig5" class="left-align">Store App</p> </a>
+            </div>
+            <div class="slide-active">
+                <div class="button"><i class="fas fa-angle-left"></i> </div>
+                <div class="button"><i class="fas fa-angle-right"></i> </div>
+                
+            </div>
+            <style type="text/css">
+                .container{
+                    /* position: absolute; */
+                    /* border: 3px solid #100f0f;  */
+                    margin-top: 10px;
+                    max-width:88.5%;
+                    max-height: 800px;
+                    padding-top: 5px;
+                    margin-left: 100px;
+                    float: left;
+                    background-color: rgb(176, 173, 173);
+                }
+                .slide-active{
+                    /* text-align: center; */
+                    float: left;
+                    margin:20px;
+                    font-family:georgia,garamond,serif;
+                    /* border: 1px solid rgb(21, 5, 5); */
+                    width:360px;
+                    /* margin-left: 30px; */
+                }
+                #fig1{
+                    float:right;
+                    color: rgb(11, 11, 11);
+                    font-family:georgia,garamond,serif;
+                    margin-right: 20px;
+                }
+                #fig2{
+                    float:right;
+                    color: rgb(11, 11, 11);
+                    font-family:georgia,garamond,serif;
+                    margin-right: 20px;
+                }
+                #fig3{
+                    float:right;
+                    color: rgb(11, 11, 11);
+                    font-family:georgia,garamond,serif;
+                    margin-right: 80px;
+                }
+                #fig4{
+                    float:right;
+                    color: rgb(11, 11, 11);
+                    font-family:georgia,garamond,serif;
+                    margin-right: 20px;
+                }
+                #fig5{
+                    float:right;
+                    color: rgb(11, 11, 11);
+                    font-family:georgia,garamond,serif;
+                    margin-right: 80px;
+                }
+
+            </style>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
